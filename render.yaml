@@ -7,3 +7,5 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+    # Ensure this is treated as a Node.js app, not a static site
+    autoDeploy: true
